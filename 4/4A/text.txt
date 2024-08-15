@@ -1,0 +1,20 @@
+data user : 
+ -  id
+ -  email
+ -  username
+ -  password
+
+data provinsi_tb :
+-   id
+-   user_id
+-   nama
+-   diresmikan
+-   photo
+-   pulau
+
+data Kabupaten_tb :
+-   id
+-   nama
+-   provinsi_id
+-   diresmikan
+-   photo

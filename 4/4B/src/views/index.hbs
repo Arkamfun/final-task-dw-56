@@ -59,7 +59,7 @@
         <div>
             <a href="/addProvinsi" class="btn btn-primary"> Tambah Provinsi </a>
             <a href="/addKabupaten" class="btn btn-primary"> Tambah Kabupaten </a>
-            <p>{{login}}</p>
+            {{!-- <p>{{login}}</p> --}}
         </div>
     </section>
 
@@ -74,10 +74,10 @@
     <h5 class="card-title text-center"><a href="detail/{{this.id}}" class="text-decoration-none text-dark">{{this.nama}}</a></h5>
     <p class="card-text text-center">Diresmikan pada : {{this.diresmikan}}</p>
     <div class="d-flex justify-content-center gap-3">
-        {{#if login}}
+        {{!-- {{#if login}} --}}
     <a href="updateProv/{{this.id}}" class="btn btn-primary">Update</a>
     <a href="deleteProv/{{this.id}}" class="btn btn-danger">Delete</a>
-    {{/if}}
+    {{!-- {{/if}} --}}
     </div>
     </div>
     </div>
